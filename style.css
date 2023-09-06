@@ -1,0 +1,31 @@
+nav{
+    background-color: green;
+    padding: 10px;
+}
+
+#main{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 15px;
+}
+
+.celestial-body{
+    text-align: center;
+    padding: 20px;
+    width: fill;
+    background-color: greenyellow;
+    outline: 8px solid yellow;
+}
+
+.thumbnail{
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+}
+
+.image{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}

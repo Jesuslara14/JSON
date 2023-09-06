@@ -1,0 +1,92 @@
+[
+    {
+        "name" : "Sun",
+        "radius" : 696000,
+        "mass" : 2000000000000000000000000000000,
+        "type" : "Star",
+        "atmosphere" : {"exists" : true, "height" : 5000000, "density" : 0.000001},
+        "image" : "sun.png",
+        "color" : "yellow"   
+    },
+    {
+        "name" : "Mercury",
+        "radius" : 2440,
+        "mass" : 330000000000000000000000,
+        "type" : "Rocky Planet",
+        "atmosphere" : {"exists" : false, "height" : null, "density" : null},
+        "image" : "mercury.png",
+        "color" : "gray"
+    },
+    {
+        "name" : "Venus",
+        "radius" : 2440,
+        "mass" : 4867000000000000000000000,
+        "type" : "Rocky Planet",
+        "atmosphere" : {"exists" : true, "height" : 220, "density" : 65},
+        "image" : "venus.png",
+        "color" : "orange"
+    },
+    {
+        "name" : "Earth",
+        "radius" : 6371,
+        "mass" : 5972168000000000000000000,
+        "type" : "Rocky Planet",
+        "atmosphere" : {"exists" : true, "height" : 120, "density" : 1.2},
+        "image" : "earth.png",
+        "color" : "blue"
+    },
+    {
+        "name" : "Moon",
+        "radius" : 1740,
+        "mass" : 73476730900000000000000,
+        "type" : "Rocky Moon",
+        "atmosphere" : {"exists" : false, "height" : null, "density" : null},
+        "image" : "moon.png",
+        "color" : "gray"
+    },
+    {
+        "name" : "Mars",
+        "radius" : 6371,
+        "mass" : 639000000000000000000000,
+        "type" : "Rocky Planet",
+        "atmosphere" : {"exists" : true, "height" : 90, "density" : 0.02},
+        "image" : "mars.png",
+        "color" : "red"
+    },
+    {
+        "name" : "Jupiter",
+        "radius" : 69911,
+        "mass" : 1898200000000000000000000000,
+        "type" : "Gas Giant",
+        "atmosphere" : {"exists" : true, "height" : 27, "density" : 6.11},
+        "image" : "jupiter.png",
+        "color" : "gray"
+    },
+    {
+        "name" : "Saturn",
+        "radius" : 58232,
+        "mass" : 568340000000000000000000000,
+        "type" : "Gas Giant",
+        "atmosphere" : {"exists" : true, "height" : 60, "density" : 1.4},
+        "image" : "saturn.png",
+        "color" : "gray"
+    },
+    {
+        "name" : "Uranus",
+        "radius" : 25362,
+        "mass" : 86810000000000000000000000,
+        "type" : "Ice Giant",
+        "atmosphere" : {"exists" : true, "height" : 27, "density" : 1.27},
+        "image" : "uranus.png",
+        "color" : "gray"
+    },
+    {
+        "name" : "Neptune",
+        "radius" : 24622,
+        "mass" : 102400000000000000000000000,
+        "type" : "Ice Giant",
+        "atmosphere" : {"exists" : true, "height" : 19.7, "density" : 1.61},
+        "image" : "neptune.png",
+        "color" : "gray"
+    }
+]

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=foundObject.name%></title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav><button><a href="/">Back</a></button></nav>
+    <div style="text-align: center;"c>
+        <img class="image" src="images/<%=foundObject.image%>">
+        <h1><%=foundObject.name%></h1>
+        <ul style="list-style-type: none; text-align: center;">
+            <li>Type: <%=foundObject.type%></li>
+            <li>Mass: <%=foundObject.mass/100000000000000000000%>E20kg</li>
+            <li>Radius: <%=foundObject.radius%>km</li>
+            <li>
+                Atmosphere: 
+                <%if(foundObject.atmosphere.exists != false){%>
+                    Height: <%=foundObject.atmosphere.height%>, Density: <%=foundObject.atmosphere.density%>
+                <%}else{%>
+                    None
+                <%}%>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
